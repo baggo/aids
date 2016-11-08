@@ -1,0 +1,27 @@
+{
+  "name": "aids",
+  "version": "0.0.15",
+  "description": "aids.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo No TeSt CoMmAnD!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prestonkyles/aids.git"
+  },
+  "keywords": [
+    "aids",
+    "capitalized",
+    "capital",
+    "letter",
+    "every",
+    "other"
+  ],
+  "author": "Preston Kyles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prestonkyles/aids/issues"
+  },
+  "homepage": "https://github.com/prestonkyles/aids#readme"
+}
