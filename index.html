@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name='viewport' content='initial-scale=1, width=device-width'/>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Permanent+Marker|Raleway:300,400,700|Material+Icons'/>
+    <link rel='stylesheet' href='prism.css'/>
+    <link rel='stylesheet' href='main.css'/>
+    <title>aids | Facebook comments for the modern web</title>
+  </head>
+  <body>
+    <div id='wrap'>
+      <div id='hero'>
+        <h1>aids</h1>
+        <h2 id='output'>{{ output }}</h2>
+      </div>
+      <div id='gimmick'>
+        <div class='input-wrap'>
+          <input class='input-item' placeholder='Type here to test!' v-on:input='foo'/>
+          <i class='input-item input-icon material-icons'>lightbulb_outline</i>
+          <div class='input-tab'></div>
+          <div class='input-border'></div>
+        </div>
+      </div>
+      <article id='article'>
+        <div class='box'>
+          <section>
+            <h3>Overview</h3>
+            <p id='overview'>Aids is a simple plugin that makes every other letter capitalized for maximum cringe. Spreading cancer on the Internet has never been so simple!</p>
+          </section>
+          <section>
+            <h3>Installation</h3>
+            <p>Just install <a href='https://github.com/prestonkyles/aids' target='_blank'  title='aids'>aids</a> into your project via <a href='https://www.npmjs.com/package/aids' target='_blank' title='aids on npm'>npm</a>:</p>
+            <pre>
+              npm install --save aids
+            </pre>
+            <p>Alternatively, we've cooked up <a href='https://github.com/prestonkyles/aids-cli' target='_blank' title='aids-cli'>a CLI implementation</a> for you top programmers out there.</p>
+          </section>
+          <section>
+          <h3>Usage</h3>
+            <h4><code>aids(source, [offset])</code></h4>
+            <p>Turn the source into alternating capital and lowercase letters.</p>
+            <h5>Parameters</h5>
+            <ul>
+              <li><code>source</code>(<code>String</code>): The source you want to turn into aids text.</li>
+              <li><code>offset</code>(<code>Boolean</code>): Start capitalizing on the second letter.</li>
+            </ul>
+            <h5>Example</h5>
+            <pre><code class='language-js'>var aids = require('aids')
+
+aids('hello world')
+// => 'HeLlO wOrLd'
+
+aids('hello world', true)
+// => 'hElLo WoRlD'</code></pre>
+          </section>
+        </div>
+        <figure>
+          <img src='images/runkit.png' title='Oh dear'/>
+          <figcaption>Why of course you should, silly.</figcaption>
+        </figure>
+      </article>
+      <footer>
+        <span>MIT © <a href='https://github.com/prestonkyles/' target='_blank'>Preston Kyles</a></span>
+        <div class='icons'>
+          <a class='icon' href='https://github.com/prestonkyles/aids' target='_blank' title='aids on GitHub'>
+            <svg>
+              <use xlink:href='images/github.svg#icon'/>
+            </svg>
+          </a>
+          <a class='icon' href='https://www.npmjs.com/package/aids' target='_blank' title='aids on NPM'>
+            <svg>
+              <use xlink:href='images/npm.svg#icon'/>
+            </svg>
+          </a>
+        </div>
+      </footer>
+    </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.js'></script>
+    <script src='prism.js'></script>
+    <script src='main.js'></script>
+  </body>
+</html>
