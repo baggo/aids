@@ -2,7 +2,7 @@ function aids (s, o) {
   return s.split('').map(x=>/[\S]/.test(x)&&(o=!o)?x.toUpperCase():x.toLowerCase()).join('')
 }
 
-var output = 'Facebook comments for the modern web'
+var output = 'Text for the modern web'
 var overview = document.getElementById('overview')
 overview.innerText = aids(overview.innerText)
 
