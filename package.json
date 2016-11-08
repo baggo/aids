@@ -1,15 +1,11 @@
 {
   "name": "aids",
   "version": "0.0.2",
-  "description": "aids.",
+  "description": "MaKeS eVeRy OtHeR lEtTeR cApItaLiZeD.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo No TeSt CoMmAnD!"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/prestonkyles/aids.git"
-  },
+  "repository": "prestonkyles/aids",
+  "author": "Preston Kyles",
+  "license": "MIT",
   "keywords": [
     "aids",
     "capitalized",
@@ -18,10 +14,15 @@
     "every",
     "other"
   ],
-  "author": "Preston Kyles",
-  "license": "MIT",
+  "scripts": {
+    "test": "tape test.js"
+  },
   "bugs": {
     "url": "https://github.com/prestonkyles/aids/issues"
   },
-  "homepage": "https://github.com/prestonkyles/aids#readme"
+  "homepage": "https://github.com/prestonkyles/aids#readme",
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.2"
+  }
 }
