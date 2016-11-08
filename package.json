@@ -15,13 +15,17 @@
     "other"
   ],
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js",
+    "postinstall": "npm start",
+    "start": "npm run serve",
+    "serve": "browser-sync start --no-notify --no-ui --server --serveStatic docs --files \"docs/*.+(html|css|js)\" --port 8080"
   },
   "bugs": {
     "url": "https://github.com/prestonkyles/aids/issues"
   },
   "homepage": "https://github.com/prestonkyles/aids#readme",
   "devDependencies": {
+    "browser-sync": "^2.17.5",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.2"
   }
