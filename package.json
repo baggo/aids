@@ -1,6 +1,6 @@
 {
   "name": "aids",
-  "version": "0.0.15",
+  "version": "0.0.2",
   "description": "aids.",
   "main": "index.js",
   "scripts": {
