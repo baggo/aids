@@ -44,4 +44,4 @@ aids('hello world', true)
 
 ## License
 
-MIT © [Preston Kyles](https://github.com/prestonkyles)
+Do whatever you want.
